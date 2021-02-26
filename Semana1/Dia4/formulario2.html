@@ -7,7 +7,7 @@
     <title>Practica Formulario</title>
 </head>
 <body>
-    <form action="">
+    <form action="" oninput="x.value=parseInt(a.value) + parseInt(b.value)">
         <div>
             <input type="text" id="input-nom-madre" name="input-nom-madre">
             <label for="input-nom-madre">Nombre Madre</label>
@@ -51,6 +51,19 @@
         <div>
             <textarea name="mensaje" id="mensaje" cols="30" rows="10">Desarrollo en CODIGO</textarea> <br>
             <BUTton type="button" onclick="alert('Hola Tio Codigo')">Hasle Click</BUTton>
+        </div>
+        <div>
+            <div>
+                0
+                <input type="range" id="a" name="a" value="50" >
+                100              
+            </div>
+            <div>
+                <input type="number" id="b" name="b" value="50"> 
+                = 
+                <output name="x" for="a b" > </output>
+            </div>
+            
         </div>
 
     </form>
