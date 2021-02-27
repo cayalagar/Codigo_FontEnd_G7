@@ -1,2 +1,33 @@
-p{color: chocolate;
-   font-size:30px;}
+p {
+    color: rgb(64, 186, 235);
+    font-size:30px;
+}
+/*
+Sintaxis CCS
+    Selector {
+        propiedad: valor
+    }
+*/
+h1{
+    color: rgb(202, 240, 32);
+    font-size: 50px;
+}
+body{
+    background-color: grey;
+    font-style: italic;
+    text-align: center;
+}
+header{
+    background-color: hotpink;
+}
+.hola-mundo{
+    background-color: khaki;
+    font-size: 50px;
+    color: lawngreen;
+}
+
+#Lugar{
+    font-size: 30px;
+    background-color: lightcyan;
+    font-family: fantasy;
+}
