@@ -1,0 +1,21 @@
+body{
+    width:  900px;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    background-color: silver;
+}
+img{
+    text-align: center;
+    width: 860px;
+    height: 500px;
+    filter: grayscale(100%);
+    padding: 20px;
+}
+
+footer{
+    text-align: center;
+    color: silver;
+}

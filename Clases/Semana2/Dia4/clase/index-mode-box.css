@@ -1,0 +1,20 @@
+#caja-1{
+    background-color: yellow;
+    font-weight: bold;
+    width: 400px;
+    height: 200px;
+    border: 10px solid blue;
+    padding: 50px;
+    margin: 20px;
+}
+
+#caja-2{
+    background-color: yellow;
+    font-weight: bold;
+    width: 400px;
+    height: 200px;
+    border: 10px solid blue;
+    padding: 50px;
+    margin: 20px;
+   box-sizing: border-box;
+}

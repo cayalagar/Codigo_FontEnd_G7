@@ -1,0 +1,16 @@
+//HTML
+// 1. vamos a crear un html
+// 2. creamos una etiqueta select con varias canciones
+// 3. despues de esta etiqueta vamos a crear una etiqueta h1 que etsa vacia(pero aqui ira el  nombre de la cancion)
+// 4.  a continuacion creamos una etiqueta p vacia
+//JAVASCRIPT
+//1. Voy a seleccionar mi select
+//2. voy a seleccionar mi parrafo
+//3. voy a agregar un evento a mi select que se llama change y que ejecuta una funcion
+//4. voy a crear una funcion que dependiendo de el valor que tenga mi select
+//voy a darle un valor al contenido de mi texto en h1(que debe ser el titulo de la cancion)
+// y tambien voy a darle una valor al texto(que sera la letra de mi cancion)
+//WARNING(advertencia)
+// no olvidar poner el refer en mi script
+//EXTRA
+// Apliquemos estilos a nuestro html

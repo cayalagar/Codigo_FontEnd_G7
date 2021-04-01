@@ -1,0 +1,52 @@
+html {
+    background: url("./assets/images/amen04.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: rgb(136, 27, 27);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cnt-historia{
+    margin-top: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: burlywood;
+    background-color: brown;
+    font-size: 18px;
+}
+
+#cnt-principal{
+      margin-top: 10px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      background-color: brown;
+      color: burlywood;
+  }
+
+#titulo-prin{
+    font-size:50px;
+    margin: 0px;
+}
+
+#subtitulo-prin{
+    font-size:20px;
+    margin: 0px;
+}
+
+label{
+    font-size:20px;
+    font-style: unset; 
+    font-weight:bold;
+}
+

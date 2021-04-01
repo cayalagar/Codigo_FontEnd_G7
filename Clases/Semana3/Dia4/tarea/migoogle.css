@@ -1,0 +1,167 @@
+/*** VARIABLES ****/
+:root{
+    --colorbotones: rgb(102, 215, 219);
+}
+/****************************************/
+*{
+    text-decoration: none;
+    color: black;
+    font-style:normal;
+    font-size: 10;
+    margin: 0px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-link{
+    padding-top: 20px;
+    margin-left: 15px;
+}
+
+#header-aplicaciones{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+#header-perfil{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 80px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main-div-principal{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#main-img-central{
+    width:300px ;
+    height: 150px;
+}
+
+#main-img-compartir{
+    width:40px ;
+    height: 40px;
+}
+/************************************************/
+
+#main-div-buscador{
+    width: 600px;
+    height: 45px;
+    border-style: solid;
+    border-color: rgb(197, 189, 189); 
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#main-img-lupa{
+    margin-top: 5px;
+    width:30px ;
+    height: 30px;
+    padding: 8px;
+}
+
+#main-form-text{
+    margin-top: 5px;
+    width: 490px;
+    height: 30px;
+    border: none;
+}
+
+#main-img-microfono{
+    margin-top: 5px;
+    width:30px ;
+    height: 30px;
+    padding: 8px;
+}
+/*************************************************/
+#main-div-botones{
+    margin-top: 20px;
+}
+
+.boton{
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: var(--colorbotones);
+}
+/************************************************/
+#main-div-texto{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-div-texto-link{
+    margin-left: 10px;
+    color: rgb(45, 23, 170);
+}
+
+/************************************************/
+footer{
+    background-color: rgb(243, 244, 245);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+
+#footer1{
+    margin-top: 10px;
+}
+
+#footer2{
+    margin-top: 10px;
+}
+
+.footer-link{
+    color: rgb(165, 163, 163);
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+@media only screen and (max-width:800px){
+    footer{
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+}

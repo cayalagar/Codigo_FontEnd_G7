@@ -1,0 +1,25 @@
+
+#gradiente-lineal-miltiples-colores{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(green,yellow,orange);
+}
+
+#gradiente-lineal-miltiples-colores-2{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+    background-image: linear-gradient(to left,green,yellow,red,orange);
+}
+
+#gradiente-lineal-transparente{
+    width: 250px;
+    height: 250px;
+    background-image: linear-gradient(to right,rgba(255,0,0,0),rgba(255,0,0,1));
+}
+
+#repetir-gradiente-lineal{
+    width: 250px;
+    height: 250px;
+    background-image: repeating-linear-gradient(red,yellow 10%,green 20%);
+}

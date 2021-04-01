@@ -1,0 +1,18 @@
+body{
+    background-image: url(https://e.rpp-noticias.io/normal/2019/07/01/080608_809322.jpg);
+    background-size: 100%;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(238, 199, 163);
+}
+
+div{
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #000000;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    padding: 10px;
+}

@@ -1,0 +1,12 @@
+#gradiente_t01{
+    height: 695px;
+    width: 250px;
+    text-align: center;
+    border-radius: 80px;
+    background-image: linear-gradient(to top left,green,yellow,orange,red,orange,yellow,green);
+}
+
+h1{
+    color: white;
+    padding: 100px;
+}

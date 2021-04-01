@@ -1,0 +1,64 @@
+body{
+    background-color: aquamarine;
+}
+/* media queries */
+
+/* pantallas extra pequeñas celulares */
+@media only screen and (max-width:600px){
+    body{
+        background-color: brown;
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 25px;
+    }    
+} 
+
+/* pantallas pequeñas tables  */
+@media only screen and (min-width:600px){
+    body{
+        background-color: rgb(228, 215, 105);
+    }
+    img{
+        width: 500px;
+        height: 400px;
+        border-radius: 25px;
+    }   
+}
+
+/* pantallas de tamaño media (tables modo lanscape con un ancho mayor o igual a 780px  */
+@media only screen and (min-width:780){
+    body{
+        background-color: rgb(124, 105, 228);
+    }
+     img{
+        display: none;
+    }   
+}
+
+/* pantallas grandes   */
+@media only screen and (min-width:980px){
+    body{
+        background-color: rgb(105, 228, 152);
+    }
+    img{
+        width: 800px;
+        height: 600px;
+        border-radius: 50px;
+        border-color: chocolate;
+    }   
+}
+
+/* pantallas muy grandes   */
+@media only screen and (min-width:1200px){
+    body{
+        background-color: rgb(10, 14, 224);
+    }
+    img{
+        width: 1000px;
+        height: 800px;
+        border-radius: 25px;
+    }
+}

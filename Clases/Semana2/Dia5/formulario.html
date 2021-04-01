@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Mi formulario</h1>
+    </header>
+    <main>
+        <h3>Encuesta</h3>
+        <div id="contenedor-principal">
+            <form action="">
+                <div class="pregunta">
+                    <label for="* Nombre">*Nombre</label> 
+                    <input type="text" id="nombre" placeholder="Ingrese Nombre">
+                </div>
+                <div class="pregunta">
+                    <label for="email">*Email</label> 
+                    <input type="text" id="email" placeholder="Ingrese Email">
+                </div>
+                <div class="pregunta">
+                    <label for="edad">*Edad </label> 
+                    <input type="number" id="edad" placeholder="Ingrese Edad">
+                </div>
+                <div class="pregunta">
+                    <label for="ocupacion">Seleccione Ocupación </label> 
+                    <select name="" id="">
+                        <option value="carrera1">Carrera 1</option>
+                        <option value="carrera2">Carrera 2</option>
+                        <option value="carrera3">Carrera 3</option>
+                    </select>
+                </div>
+                <div id="frontend">
+                    <label for="">¿Que tanto de gusta FRONTEND? </label> <br>
+                    <div>
+                        <input type="radio" id="mucho" name="categoria" value="mucho">Mucho <br>
+                        <input type="radio" id="regular" name="categoria" value="regular">Regular <br>
+                        <input type="radio" id="nada" name="categoria" value="nada">Poco <br>
+                    </div>
+                </div>
+                <div>
+                    <input type="button" value="OK - Enviar">
+                </div>
+
+            </form>
+        </div>
+    </main>
+</body>
+</html>

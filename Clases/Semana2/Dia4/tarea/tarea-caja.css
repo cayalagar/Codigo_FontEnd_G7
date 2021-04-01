@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+}
+
+#caja_principal{
+    text-align: center;
+    width: 1000px; 
+    height: 1000px;
+    background-color: rgb(241, 232, 143);
+    border: 10px solid rgb(110, 25, 44);
+    position: absolute;
+}
+
+img{
+    width: 400px;
+    height: 200px;
+    border-radius: 25px;
+    border: 10px solid rgb(110, 25, 44);
+}
+
+#caja_titulo{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#caja_cuerpo{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border: 1px solid blue;    
+}
+
+#caja_pie{
+    background-color: coral;
+}

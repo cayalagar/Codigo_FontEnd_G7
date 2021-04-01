@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Formulario</title>
+</head>
+<body>
+    <form action="" oninput="x.value=parseInt(a.value) + parseInt(b.value)">
+        <div>
+            <input type="text" id="input-nom-madre" name="input-nom-madre">
+            <label for="input-nom-madre">Nombre Madre</label>
+        </div>
+        <div>
+            <label for="input-hora-prog">Horas que le dedicas a la programacion:</label>           
+            <input type="text" id="input-hora-prog" name="input-hora-prog">
+        </div>
+        <div>
+            <h4>Tipo de Mascota Favorito:</h4>
+        </div>
+        <div>
+            <label for="perro">Perro</label>
+            <input type="radio" name="mascota" id="perro" value="perro">
+            <br>    
+            <label for="gato">Masculino</label>
+            <input type="radio" name="mascota" id="gato" value="gato">
+        </div>
+        <div>
+            <h4>Comida Favorita</h4>
+        </div>
+        <div>
+            <label for="lomo">Lomo Saltado</label>
+            <input type="checkbox" name="lomo" id="lomo" value="lomo"> <br>
+            <label for="pollobrasa">Pollo a la brasa</label>
+            <input type="checkbox" name="pollobrasa" id="pollobrasa" value="pollobrasa"> <br>
+            <label for="soya">Soya</label>
+            <input type="checkbox" name="soya" id="soya" value="soya"> <br>
+        </div>
+        <div>
+            <label for="lenguajes">Lenguaje de programacion</label><br>
+            <select name="lenguajes" id="lenguajes" size="3">
+                   <option value="javascrip">JS</option> 
+                   <option value="typescript">TypeScript</option> 
+                   <option value="c++">C++</option> 
+                   <option value="fox">Visual Fox Pro</option>
+                   <option value="kotlin">Kotlin</option> 
+                   <option value="swift">Swift</option>  
+            </select>
+        </div>
+        <div>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10">Desarrollo en CODIGO</textarea> <br>
+            <BUTton type="button" onclick="alert('Hola Tio Codigo')">Hasle Click</BUTton>
+        </div>
+        <div>
+            <div>
+                0
+                <input type="range" id="a" name="a" value="50" >
+                100              
+            </div>
+            <div>
+                <input type="number" id="b" name="b" value="50"> 
+                = 
+                <output name="x" for="a b" > </output>
+            </div>
+            
+        </div>
+
+    </form>
+</body>
+</html>

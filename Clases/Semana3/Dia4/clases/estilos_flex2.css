@@ -1,0 +1,102 @@
+
+*{
+    margin: 0px;
+}
+
+html {
+    background: url("./assets/images/Carlos1.JPG") no-repeat center center fixed;
+    background-size: cover;
+  }
+
+#contenedor-hotizontal{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: rgb(12, 12, 12);
+    justify-content: space-between;
+}
+
+#parafo{
+    font-size:xx-large;
+    font-weight: bolder;
+    color: azure;
+    margin-top: 20;
+}
+
+#imagen{
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+nav{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(135, 63, 163);
+    padding: 10px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#contenedor-vertical{
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+    align-items: center;
+}
+
+.foto{
+    width: 350px;
+    height: auto;
+    margin: 25px;
+    /*sombra de caja, top=arriba , right=derecha, bottom= fondo, left=izquierda, color */
+/*    box-shadow: 5px 5px 15px 5px #000000;*/
+    -webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+#contenedor-hotizontal2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.frase{
+    background-color: rgb(71, 234, 255);
+    border: solid;
+    border-color: teal;
+    width: 300px;
+}
+
+@media only screen and (max-width:600px){
+    #contenedor-hotizontal{
+        position: static;
+    }
+
+    #parafo{
+        display: none;
+    }
+
+    #contenedor-vertical{
+        margin-top: 50px;
+    }
+
+    #contenedor-hotizontal2{
+        flex-wrap: wrap;
+    }
+    .frase{
+        background-color: thistle;
+    }
+}

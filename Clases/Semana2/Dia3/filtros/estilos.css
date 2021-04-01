@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to top left,green,yellow,orange,red,orange,yellow,green);
+}
+
+#img-filtro{
+    filter: grayscale(100%);
+    border-radius: 25px;
+    transform: rotate(180deg);
+
+}
+
+#blur{
+/*    filter: blur(20px);*/
+/*   transform:skewX(45deg);*/
+    transform: scaleY(1.5);
+}

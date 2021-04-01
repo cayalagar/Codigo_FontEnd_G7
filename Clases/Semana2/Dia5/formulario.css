@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(171, 233, 202);
+    width:  1200px;
+    margin: auto;
+    text-align: center;
+}
+
+label{
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.pregunta{
+    margin-bottom: 15px;
+}
+
+#frontend{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+}
+
+button{
+    margin-top: 100px;
+}
+
+#contenedor-principal{
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    height: 1000px;
+    padding: 25px;
+}
